@@ -8,4 +8,6 @@ import com.alex.silva.cursomc.domain.Categoria;
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria,Integer> {
 
+	//Categoria findOne(Integer id);
+
 }
